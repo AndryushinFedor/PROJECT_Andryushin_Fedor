@@ -37,22 +37,120 @@ a:link {
 a:visited {
   color: inherit;
 }
-
+/* Ремень */
 .back {
-  background-image: url('../img/1x/back2.png');
+  background-image: url('../img/1x/watch.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 1500.71px;
+  height: 7200px;
+  left: 42px;
+  top: 1180px;
+  z-index: 2;
 }
-
+/* Заключение облако*/
 .dot {
   background-image: url('../img/1x/frame.png');
   position: absolute;
   margin-left: -35px;
   width: 1115px;
-  height: 800px;
+  height: 550px;
   left: 0px;
-  top: 7510px;
+  top: 7790px;
   z-index: -1;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+/* Полезные советы облако*/
+.dot1 {
+  background-image: url('../img/1x/2.png');
+  position: absolute;
+  margin-left: 220px;
+  width: 1219.83px;
+  height: 1563.51px;
+  left: 225px;
+  top: 6172px;
+  z-index: -1;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+/* Как же все планировать облако */
+.dot2 {
+  background-image: url('../img/1x/3.png');
+  position: absolute;
+  margin-left: -30px;
+  width: 1082.16px;
+  height: 932.6px;
+  left: 0px;
+  top: 4860px;
+  z-index: -1;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+/* Мой опыт облако */
+.dot3 {
+  background-image: url('../img/1x/4.png');
+  position: absolute;
+  margin-left: 30px;
+  width: 586px;
+  height: 800px;
+  left: -146px;
+  top: 4080px;
+  z-index: -1;
+  background-size: 85%;
+  background-repeat: no-repeat;
+
+}
+/* способы планирования своего времени облако */
+.dot4 {
+  background-image: url('../img/1x/5.png');
+  position: absolute;
+  margin-left: 425px;
+  width: 1240px;
+  height: 3000px;
+  top: 2200px;
+  z-index: -1;
+  background-size: 120%;
+  background-repeat: no-repeat;
+
+}
+/* Что такое тайм-менеджмент облако*/
+.dot5 {
+  background-image: url('../img/1x/6.png');
+  position: absolute;
+  width: 1264.35px;
+  height: 880.32px;
+  top: 1080px;
+  z-index: -1;
+  background-size: 95%;
+  background-repeat: no-repeat;
+
+}
+.dot6 {
+  background-image: url('../img/1x/7.png');
+  position: absolute;
+  width: 934px;
+  height: 1734px;
+  left: 650px;
+  top: 360px;
+  z-index: 3;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+.dot7 {
+  background-image: url('../img/1x/8.png');
+  position: absolute;
+  left: 0%;
+  right: 0px;
+  top: 170px;
+  bottom: 0;
+  z-index: 1;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
 }
 /*
 Общие
@@ -71,6 +169,9 @@ h1 {
   width: 720px;
 
 }
+ul li {
+  padding-top: 18px;
+}
 
 h2 {
   margin-top: 200px;
@@ -78,13 +179,13 @@ h2 {
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
-  margin-bottom: 70px;
+
 }
 
 h3 {
   margin-top: 50px;
   font-size: 48px;
-  margin-bottom: 35px;
+
 }
 
 p, ul {
@@ -107,8 +208,7 @@ p {
 .box1 {
   height: 120vh;
   position: relative;
-  background-image: url('../img/1x/watch.png');
-  background-repeat: no-repeat;
+
 
 
 }
@@ -195,12 +295,8 @@ p {
  */
 
 .box4 {
-  margin-left: 227px;
-  margin-top: 150px;
+  margin-left: 620px;
   width: 940px;
-  background-image: url('../img/frame.png');
-  background-repeat: no-repeat;
-
 }
 
 /*
@@ -208,7 +304,7 @@ p {
 */
 
 .box5 {
-  margin-left: 50px;
+  margin-left: 650px;
   width: 940px;
 
 }
@@ -229,14 +325,50 @@ p {
  */
 
  .box6 {
-   margin-left: 550px;
+   margin-left: 680px;
    width: 940px;
-
  }
 
  .box7 {
+   margin-left: 227px;
+   margin-top: 450px;
+   width: 940px;
+   background-image: url('../img/frame.png');
+   background-repeat: no-repeat;
+
+ }
+
+ .box8 {
    margin-left: 100px;
    width: 940px;
    margin-bottom: 300px;
+
+ }
+
+ .box9 {
+   padding-top: 50px;
+   margin-left: 600px;
+   width: 940px;
+
+ }
+ .box10 {
+   margin-left: 640px;
+   width: 940px;
+
+ }
+ .box11 {
+   margin-left: 680px;
+   width: 940px;
+
+ }
+ .box12 {
+   margin-left: 720px;
+   width: 940px;
+
+ }
+ .box13 {
+   padding-top: 50px;
+   margin-left: 100px;
+   width: 940px;
 
  }
