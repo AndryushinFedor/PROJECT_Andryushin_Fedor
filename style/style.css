@@ -19,7 +19,6 @@ nav ul li {
 }
 
 nav ul {
-  /* margin-left: 105px; */
   position: fixed;
   background: #F9DBBD;
   z-index: 99;
@@ -128,6 +127,7 @@ a:visited {
   background-repeat: no-repeat;
 
 }
+/* Часы большие */
 .dot6 {
   background-image: url('../img/1x/7.png');
   position: absolute;
@@ -140,6 +140,7 @@ a:visited {
   background-repeat: no-repeat;
 
 }
+/* Часы малые */
 .dot7 {
   background-image: url('../img/1x/8.png');
   position: absolute;
@@ -157,8 +158,9 @@ a:visited {
 */
 
 h1, h2, h3 {
-  font-family: 'Roboto';
+  font-family: 'Roboto+Slab';
   padding-bottom: 50px;
+  font-weight: bold;
 }
 h1 {
   font-size: 87px;
@@ -201,9 +203,6 @@ p {
   line-height: 42px;
 }
 
-/*
-Первая секция
- */
 
 .box1 {
   height: 120vh;
@@ -226,14 +225,14 @@ p {
   font-style: italic;
   width: 700px;
   height: 136px;
-  margin-left: 80px;
+  margin-left: 86px;
 
 
 
 }
 
 .box1 {
-  background-color: orange;
+  background-color: rgba(255, 184, 0, 0.7);
   background-position: 100% 100%;
   background-size: 1100px;
 
@@ -241,9 +240,6 @@ p {
 
 
 
-/*
- Вторая секция
- */
 
  .box2 {
    position: relative;
@@ -272,7 +268,6 @@ p {
 }
 
 
-  /* Третья секция */
 
 .box3 {
   margin-left: 550px;
@@ -290,18 +285,13 @@ p {
   top: 136px;
 }
 
-/*
-Четвертая секция
- */
+
 
 .box4 {
   margin-left: 620px;
   width: 940px;
 }
 
-/*
-Пятая секция
-*/
 
 .box5 {
   margin-left: 650px;
@@ -320,9 +310,6 @@ p {
 }
 
 
-/*
- Шестая секция
- */
 
  .box6 {
    margin-left: 680px;
