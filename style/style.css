@@ -46,7 +46,7 @@ a:visited {
 }
 /* Заключение облако*/
 .dot {
-  background-image: url('../img/1x/frame.png');
+  background-image: url('../img/1x/Frame.png');
   position: absolute;
   margin-left: -35px;
   width: 1115px;
